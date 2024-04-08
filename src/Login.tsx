@@ -6,6 +6,7 @@ import { EntradaTexto } from './componetes/EntradaTexto';
 import { Titulo } from './componetes/Titulo';
 import Cadastro from './Cadastro';
 import { fazerLogin } from './servicos/AutenticacaoServicos';
+import { useState } from 'react';
 
 export default function Login({ navigation } : any) 
 {
@@ -20,6 +21,7 @@ export default function Login({ navigation } : any)
     else{
       console.log('Erro')
     }
+  
   }
 
   return (
